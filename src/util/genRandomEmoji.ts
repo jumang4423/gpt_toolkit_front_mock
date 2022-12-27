@@ -1,0 +1,27 @@
+const emojiArr: Array<string> = [
+  "🌏",
+  "🐰",
+  "🐻",
+  "🐼",
+  "🐨",
+  "🐯",
+  "🍙",
+  "🍚",
+  "🍛",
+  "🍜",
+  "🌸",
+  "🌷",
+  "🌹",
+  "🏪",
+  "🏫",
+  "💭",
+  "🎨",
+  "🎬",
+  "🎤",
+  "🎧",
+  "🎼",
+  "🎹",
+  "🎻",
+];
+
+export const GenRandomEmoji = (): string => emojiArr[Math.floor(Math.random() * emojiArr.length)];
